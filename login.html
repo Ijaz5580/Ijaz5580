@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="bootstrap\bootstrap-5.0.2-dist\js\bootstrap.min.js"></script>
+   
+    <title>Login</title>
+    <script src="/script/index.js"></script>
+</head>
+<body>
+    
+    <div class="container mt-md-3">
+        <h2 style="position: relative; margin-left: 45%;">Login Form</h2>
+
+        <form  onsubmit="loginpanel()" method="post">
+          <div class="mb-3 mt-3">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" >
+          </div>
+          <div class="mb-3">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pass" placeholder="Enter password" name="pswd" >
+          </div>
+          
+          <button type="submit"  class="btn btn-primary form-control" >Login</button>
+        </form>
+        <p><a href="signup.html" style="text-decoration: none;color: black; margin-left: 70%;">Don't have account..?</a></p>
+      </div>
+
+  
+     
+</body>
+</html>
